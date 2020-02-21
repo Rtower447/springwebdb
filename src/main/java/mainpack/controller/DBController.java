@@ -23,5 +23,6 @@ public class DBController {
     @EventListener(ApplicationReadyEvent.class)
     public void test() {
         out("DBController", "Start");
+        System.out.println(123);
     }
 }
