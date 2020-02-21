@@ -24,5 +24,6 @@ public class DBController {
     public void test() {
         out("DBController", "Start");
         System.out.println(123);
+        System.out.println(456);
     }
 }
